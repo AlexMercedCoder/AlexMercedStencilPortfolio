@@ -1,0 +1,45 @@
+:host {
+  display: block;
+}
+
+.maincont {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  max-width: 250px;
+  height:300px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto;
+  border: 2px solid midnightblue
+}
+
+/* On mouse-over, add a deeper shadow */
+.maincont:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.linkbox {
+  padding: 2px 16px;
+  display: flex;
+  justify-content: space-around;
+  background-color: midnightblue
+}
+
+div p {margin: 0; padding: 0; text-transform: uppercase; text-align: center; color: midnightblue; border: 1px solid midnightblue;}
+
+.linkbox a {color: black; background-color: midnightblue; color: white; text-transform: uppercase; text-decoration: none;}
+
+.linkbox a:hover {color: midnightblue; background-color: white;}
+
+.maintext {
+    height: 250px;
+    width: 250px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: midnightblue;
+}
+
+.maintext img {max-width: 250px; max-height: 250px; display:block;}
